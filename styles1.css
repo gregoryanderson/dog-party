@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 p {
 	text-align: center;
 	font-family: "Open Sans", sans-serif;
@@ -58,6 +63,7 @@ tr img {
 
 tr td {
 	padding: 10px;
+	text-align:center;
 }
 
 tr td p {
@@ -88,6 +94,8 @@ body {
 
 .top {
 	background-image: url("images/park.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 form {
@@ -98,8 +106,10 @@ button {
 	width: 30%;
 	margin-left: 35%;
 	margin-right: 35%;
+	background-color: #75e2e6;
 }
 
 tr td button {
 	display: inline-block;
+	background-color: #048eaa;
 }
