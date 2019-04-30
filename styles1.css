@@ -1,0 +1,20 @@
+p {
+	text-align: center;
+	font-family: Avenir;
+	font-size: 16;
+}
+
+nav {
+	border-bottom:2px solid;
+	border-color: #048eaa;
+	background: #75e2e6;
+}
+
+nav li {
+	display:inline-block;
+	padding: 5px;
+}
+
+footer {
+	background: #048eaa;
+}
