@@ -1,6 +1,6 @@
 p {
 	text-align: center;
-	font-family: Avenir;
+	font-family: "Open Sans", sans-serif;
 	font-size: 16;
 }
 
@@ -13,8 +13,25 @@ nav {
 nav li {
 	display:inline-block;
 	padding: 5px;
+	float:right;
 }
 
 footer {
 	background: #048eaa;
+}
+
+tr img {
+	border-radius:50%;
+	border:2px;
+	border-color: #75e2e6;
+}
+
+.doggo img {
+	border-radius:50%;
+	border:2px;
+	border-color: #75e2e6;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
 }
