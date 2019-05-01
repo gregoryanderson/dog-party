@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p {
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16;
+}
+
+nav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: #9A969C
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display:inline-block;
+	padding:20px;
+	font-size: 12;
+}
+
+h1 {
+	font-weight: 400;
+	text-align: center;
+	padding:20px;
+}
+
+footer {
+	background: #048eaa;
+}
+
+footer p {
+	padding:10px;
+	font-size: 12px;
+	color: white;
+	padding-top: 30px;
+}
+
+footer li {
+	display:inline-block;
+	padding:10px;
+	padding-bottom: 50px;
+}
+
+footer ul {
+	text-align: center;
+}
+
+table {
+	background: white;
+}
+
+
+tr img {
+	border-radius:50%;
+	border-color: #75e2e6;
+	border: 5px solid #048eaa;
+	height: 175px;
+	width: 175px;
+}
+
+tr td {
+	padding: 20px;
+	text-align:center;
+	width: 33%;
+}
+
+tr td p {
+	font-size: 16px;
+	text-align: left;
+	padding:20px;
+	height:300px;
+}
+
+tr td h2 {
+	font-weight:800;
+	margin: 20px;
+}
+
+.doggo img {
+	border-radius:50%;
+	border-color: #75e2e6;
+	border:5px solid #048eaa;
+    display: block;
+    margin: 0 auto;
+}
+
+.ipsum {
+	font-size: 12;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+.top {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/park.jpg") no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+form {
+	display: block;
+	margin-left: 35%;
+	margin-right: 35%;
+	color:white;
+}
+
+form input {
+	width: 100%;
+	margin-right: 30%;
+	margin-left: 30%
+	padding:20px;
+	margin-bottom: 3%;
+	margin-top:3%;
+}
+
+button {
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	background-color: #75e2e6;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+tr td button {
+	display: inline-block;
+	background-color: #048eaa;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	color:white;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
