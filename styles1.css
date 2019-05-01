@@ -146,5 +146,7 @@ tr td button {
 		width:100%;
 		display: block;
 	}
+	tr td p {
+		max-height: 100px
+	}
 }
-
