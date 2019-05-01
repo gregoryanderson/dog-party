@@ -57,25 +57,31 @@ table {
 	background: white;
 }
 
+
 tr img {
 	border-radius:50%;
 	border-color: #75e2e6;
 	border: 5px solid #048eaa;
+	height: 175px;
+	width: 175px;
 }
 
 tr td {
-	padding: 10px;
+	padding: 20px;
 	text-align:center;
+	width: 33%;
 }
 
 tr td p {
-	font-size: 12px;
+	font-size: 16px;
 	text-align: left;
-
+	padding:20px;
+	height:300px;
 }
 
 tr td h2 {
 	font-weight:800;
+	margin: 20px;
 }
 
 .doggo img {
@@ -129,8 +135,16 @@ button {
 tr td button {
 	display: inline-block;
 	background-color: #048eaa;
-	width: 60%;
-	margin-left: 20%;
-	margin-right: 20%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 	color:white;
 }
+
+@media (max-width: 805px) {
+	tr td {
+		width:100%;
+		display: block;
+	}
+}
+
