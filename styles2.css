@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  width: 20%;
+  width: 15%;
   top: 0;
   left: 0;
   background-color: #9A969C;
@@ -18,7 +18,26 @@
 	background-color: #3E3544
 }
 
+.doggo img {
+	border-radius:50%;
+	border-color: #75e2e6;
+	border:5px solid #048eaa;
+    margin: 0 auto;
+    margin-left:20px;
+
+}
+
 footer {
 	background-color: #3E3544
 }
 
+h1 {
+	text-align: right;
+	padding-top: 20px;
+	padding-right:20px;
+}
+
+article {
+	width: 85%;
+	float:right;
+}
