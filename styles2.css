@@ -15,6 +15,22 @@
   height: 1200px;
 }
 
+nav img {
+	height:200px;
+	width:200px;
+	padding-top:50px;
+
+}
+
+nav li {
+	padding-top:50px;
+	font-size:20px;
+	text-align: left;
+	margin-left: 30px;
+	list-style-type: none;
+	font-weight:500;
+}
+
 .top {
 	background-color: #3E3544;
 	height:500px;
@@ -93,6 +109,68 @@ button {
 	color:white;
 	font-size:24;
 }
+
+.titleOne {
+	width:50%;
+	float:left;
+}
+
+.wordsOne {
+	width:50%;
+	float:right;
+}
+
+.titleTwo {
+	width:50%;
+	float:left;
+}
+
+.wordsTwo {
+	width:50%;
+	float:right;
+}
+
+.titleThree {
+	width:50%;
+	float:left;
+}
+
+.wordsThree {
+	width:50%;
+	float:right;
+}
+
+tr img {
+	border-radius:50%;
+	border-color: #75e2e6;
+	border: 5px solid #048eaa;
+	height: 175px;
+	width: 175px;
+}
+
+tr td {
+	display: block;
+}
+
+footer ul {
+
+}
+
+footer li{
+	width:20%;
+	list-style-type: none;
+}
+
+#one{	
+	
+}
+
+
+.iconOne {
+	margin-right: 15%
+	width:3%;
+}
+
 
 body {
 	text-align: center;
