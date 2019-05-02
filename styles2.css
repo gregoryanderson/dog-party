@@ -5,9 +5,20 @@
 }
 
 .navbar {
-  height: 100%;
   width: 20%;
   top: 0;
   left: 0;
   background-color: #9A969C;
+  height:100%;
+  z-index:2;
+  position: absolute;
 }
+
+.top {
+	background-color: #3E3544
+}
+
+footer {
+	background-color: #3E3544
+}
+
