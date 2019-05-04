@@ -6,6 +6,11 @@
 	border:1px solid red;
 }
 
+html, body {
+	padding:0;
+	margin:0;
+}
+
 article {
 	width: 85%;
 	float:right;
@@ -94,6 +99,7 @@ span {
 
 .form input {
 	width: 100%;
+	margin-right: 30%;
 	padding:20px;
 	margin-bottom: 3%;
 	margin-top:3%;
@@ -119,6 +125,7 @@ section {
 .buttermilk {
 	width:85%;
 	float:right;
+	margin-bottom:100px;
 }
 .party {
 	height:500px;
@@ -181,14 +188,17 @@ section {
     height: 65%;
 }
 
+#third {
+	margin-bottom:100px;
+}
+
 footer {
-    position: fixed;
     height: 200px;
     background-color: #3E3544;
     bottom: 0px;
-    left: 0px;
     right: 0px;
-    margin-bottom: 0px;
+    width:85%;
+    position:fixed;
 }
 footer ul {
 	width:10%;
