@@ -1,8 +1,14 @@
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	border:1px solid red;
+}
+
+article {
+	width: 85%;
+	float:right;
 }
 
 .navbar {
@@ -37,6 +43,8 @@ nav li {
 .top {
 	background-color: #3E3544;
 	height:500px;
+	width: 85%;
+	float:right;
 }
 
 .top h1 {
@@ -46,7 +54,7 @@ nav li {
 	width:50%;
 	float:right;
 	font-weight:100;
-	font-size:42;
+	font-size:42px;
 	color:white;
 }
 
@@ -64,22 +72,12 @@ nav li {
 	border:10px solid #9A969C;
  	margin-left: 4%;
     margin-top: 3%;
-    height: 65%;
+    height: 80%;
 
 }
 
-footer {
-	background-color: #3E3544
-}
-
-
-.dog-title{
+span {
 	font-weight:700;
-}
-
-article {
-	width: 85%;
-	float:right;
 }
 
 .form {
@@ -87,17 +85,15 @@ article {
 	width:50%;
 	float:right;
 	padding-right:140px;
-	padding-left:10px;
 	position:relative;
-	top:-200px;
+	top:-250px;
 	font-weight: 100;
 	color:white;
-	font-size:24;
+	font-size:24px;
 }
 
 .form input {
 	width: 100%;
-	margin-right: 30%;
 	padding:20px;
 	margin-bottom: 3%;
 	margin-top:3%;
@@ -106,10 +102,12 @@ article {
 
 .form button {
 	width: 100%;
-	background-color: #9A969C;
+	background-color: #3E3544;
 	padding: 20px;
 	margin-bottom: 20px;
 	border-style:solid;
+	font-size:24px;
+	font-weight:900;
 }
 
 /* why is this section only a few pixels deep*/
@@ -118,21 +116,19 @@ section {
 	height:auto;
 	border-bottom:10px solid blue;
 }
-
+.buttermilk {
+	width:85%;
+	float:right;
+}
 .party {
 	height:500px;
 	column-count: 2;
-}
-
-#first {
-	width:100%;
+	position: relative;
 }
 
 .titleOne, .titleTwo, .titleThree {
-	width:30%;
+	width:100%;
 	border-bottom: 1px solid black;
-    padding-top: 2%;
-    padding-bottom: 2%;
 }
 
 .titleOne img {
@@ -144,11 +140,28 @@ section {
     height: 65%;
 }
 
-.wordsOne {
-	width:70%;
+.wordsOne, .wordsTwo, .wordsThree {
 	height:300px;
 	border-bottom: 1px solid black;
+	margin-right:10%;
+	font-size: 24px;
+    font-weight: 300;
+    text-align: left;
 }
+
+.party button {
+    width: 30%;
+    margin-left: 70%;
+    background-color: #3E3544;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color:white;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: Roboto Slab
+}
+
 
 .titleTwo img {
 	border-radius:50%;
@@ -159,14 +172,6 @@ section {
     height: 65%;
 }
 
-
-.wordsTwo {
-	width:70%;
-	height:300px;
-	border-bottom: 1px solid black;
-}
-
-
 .titleThree img {
 	border-radius:50%;
 	border-color: #9A969C;
@@ -176,37 +181,38 @@ section {
     height: 65%;
 }
 
-.wordsThree {
-	width:70%;
-	height:300px;
-	border-bottom: 1px solid black;
-}
-
 footer {
     position: fixed;
-    height: 50px;
-    background-color: red;
+    height: 200px;
+    background-color: #3E3544;
     bottom: 0px;
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
 }
+footer ul {
+	width:10%;
+	float:right;
+}
+
 
 footer p {
 	color:white;
-	font-size: 36;
+	font-size: 36px;
+	width:80%;
+	text-align:right;
 }
 
 footer li{
 	width:20%;
 	list-style-type: none;
-
+	display:inline-block;
+	padding:10px;
+	padding-bottom: 50px;
 }
 
-.iconOne {
-	width:5%;
+.iconOne, .iconTwo{
 	list-style: none;
-	display:inline;
 }
 
 body {
