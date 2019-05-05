@@ -1,9 +1,10 @@
 
+/* the code below is for overarching concepts*/
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	border:1px solid red;
 }
 
 html, body {
@@ -11,18 +12,21 @@ html, body {
 	margin:0;
 }
 
-article {
-	width: 85%;
-	float:right;
+body {
+	text-align: center;
+	font-family: "Roboto Slab", serif;
 }
+
+/*the code below is for the navigation bar*/
 
 .navbar {
   width: 15%;
   top: 0;
   left: 0;
   background-color: #9A969C;
-  z-index:2;
   position: fixed;
+  height:100%;
+  border:5px solid #3E3544;
 }
 
 nav{
@@ -30,11 +34,8 @@ nav{
 }
 
 nav img {
-    height: 75%;
     width: 75%;
     padding-top: 10%;
-
-
 }
 
 nav li {
@@ -42,8 +43,11 @@ nav li {
     text-align: left;
     margin-left: 10%;
     list-style-type: none;
-    font-weight: 500;
+    font-weight: 900;
+    font-size:36px;
 }
+
+/*the code below is for the top banner*/
 
 .top {
 	background-color: #3E3544;
@@ -78,7 +82,6 @@ nav li {
  	margin-left: 4%;
     margin-top: 3%;
     height: 80%;
-
 }
 
 span {
@@ -104,24 +107,23 @@ span {
 	margin-bottom: 3%;
 	margin-top:3%;
 	border-style:solid;
+	border-radius:5px;
 }
 
 .form button {
 	width: 100%;
-	background-color: #3E3544;
-	padding: 20px;
+	background-color:#9A969C;
+	padding: 10px;
 	margin-bottom: 20px;
 	border-style:solid;
-	font-size:24px;
-	font-weight:900;
+	font-size:30px;
+	font-weight:700;
+	border-radius: 5px;
+	font-family: Roboto Slab;
 }
 
-/* why is this section only a few pixels deep*/
+/*the code below is for the main content*/
 
-section {
-	height:auto;
-	border-bottom:10px solid blue;
-}
 .buttermilk {
 	width:85%;
 	float:right;
@@ -130,29 +132,32 @@ section {
 .party {
 	height:500px;
 	column-count: 2;
-	position: relative;
+	border-bottom: 1px solid black;
+	border-width: 50%;
+	margin-left:5%;
+	margin-right:5%;
 }
 
 .titleOne, .titleTwo, .titleThree {
 	width:100%;
-	border-bottom: 1px solid black;
 }
 
-.titleOne img {
-	border-radius:50%;
-	border-color: #9A969C;
-	border:10px solid #9A969C;
- 	margin-left: 4%;
-    margin-top: 3%;
-    height: 65%;
+.titleOne, .titleTwo, .titleThree h2 {
+	font-size:30px;
+	padding-top:10px;
+}
+
+.titleThree h2 {
+	height:65px;
+	font-size: 45px;
 }
 
 .wordsOne, .wordsTwo, .wordsThree {
 	height:300px;
-	border-bottom: 1px solid black;
-	margin-right:10%;
 	font-size: 24px;
     font-weight: 300;
+    margin-right:10%;
+    padding-top:100px;
     text-align: left;
 }
 
@@ -166,9 +171,18 @@ section {
     color:white;
     font-weight: 500;
     font-size: 30px;
-    font-family: Roboto Slab
+    font-family: Roboto Slab;
+    border-radius:5px;
 }
 
+.titleOne img {
+	border-radius:50%;
+	border-color: #9A969C;
+	border:10px solid #9A969C;
+ 	margin-left: 4%;
+    margin-top: 3%;
+    width:30%;
+}
 
 .titleTwo img {
 	border-radius:50%;
@@ -176,7 +190,7 @@ section {
 	border:10px solid #9A969C;
  	margin-left: 4%;
     margin-top: 3%;
-    height: 65%;
+    width:30%;
 }
 
 .titleThree img {
@@ -185,23 +199,27 @@ section {
 	border:10px solid #9A969C;
  	margin-left: 4%;
     margin-top: 3%;
-    height: 65%;
+    width:30%;
 }
 
 #third {
-	margin-bottom:100px;
+	margin-bottom:200px;
 }
 
+
+/*the code below is for the footer*/
+
 footer {
-    height: 200px;
+    height: 300px;
     background-color: #3E3544;
     bottom: 0px;
     right: 0px;
     width:85%;
     position:fixed;
+    padding-top:50px;
 }
 footer ul {
-	width:10%;
+	width:14%;
 	float:right;
 }
 
@@ -209,26 +227,26 @@ footer ul {
 footer p {
 	color:white;
 	font-size: 36px;
-	width:80%;
+	width:85%;
 	text-align:right;
+	margin-bottom:-50px;
 }
 
 footer li{
 	width:20%;
-	list-style-type: none;
-	display:inline-block;
-	padding:10px;
-	padding-bottom: 50px;
+}
+
+footer img {
+	height:70px;
 }
 
 .iconOne, .iconTwo{
 	list-style: none;
+	display:inline-block;
+	padding:20px;
 }
 
-body {
-	text-align: center;
-	font-family: "Roboto Slab", serif;
-}
+/* the code below is for a float fix */
 
 .clearfix:after {
     content: ' ';

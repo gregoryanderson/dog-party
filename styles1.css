@@ -3,11 +3,10 @@
 * {
 	margin: 0;
 	padding: 0;
-	border:1px solid red;
 }
 
 body {
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* code below is for the navigation bar*/
@@ -153,6 +152,20 @@ button {
 	font-size:30px;
 }
 
+/*this is for the JS hidden texts*/
+
+#hidden {
+	display:block;
+}
+
+#hidden2 {
+	display:block;
+}
+
+#hidden3 {
+	display:block;
+}
+
 /* code below is the start of the footer*/
 
 footer {
@@ -196,6 +209,47 @@ footer img{
 	width:100%;
 }
 
+/* this is for the tooltips*/
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* code below is for a float fix */
 
 *,
@@ -206,12 +260,19 @@ footer img{
 
 /* code below is for media queries */
 
-@media (max-width: 805px) {
-	tr td {
-		width:100%;
-		display: block;
-	}
-	tr td p {
-		max-height: 100px
-	}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    property: value;
 }
+
+@media (max-width: 805px) {
+	.party {
+		display: block;
+		width:100%;
+		background-color: blue;
+	}
+	/*.party p {*/
+		/*max-height: 100px*/
+	/*}*/
+}
+

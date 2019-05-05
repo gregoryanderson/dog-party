@@ -1,31 +1,54 @@
 <!DOCTYPEHTML>
 <head>
   <title>Dog Party</title>
-  <link rel="stylesheet" type="text/css" href="styles2.css"> 
-  <link href="https://fonts.googleapis.com/css?family=OpenSans:100,300,400,500,700,900" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="styles1.css"> 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto+Slab:100,300,400,700" rel="stylesheet">
+<script src="main.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 <div class="navbar">
   <nav> 
     <img src="images/dog-icon.svg" alt="Dog Icon">
     <ul> 
-	    <li> How to Dog</li>
-	    <li> What is Dog?</li>
-	    <li> Facts From Dog</li>
+	   
+
+
+      <li>
+      <div class="tooltip">
+      <p>How to Dog</p>
+      <span class="tooltiptext"> This is where you learn how to dog</span>
+      </div>
+      </li>
+      
+      <li>
+      <div class="tooltip">
+      <p>What is Dog?</p>
+      <span class="tooltiptext"> This is where you learn what is dog</span>
+      </div>
+      </li>
+
+	    <li> 
+      <div class="tooltip">
+      <p>Facts From Dog</p>
+      <span class="tooltiptext"> This is where you learn facts of dog</span>
+      </div>
+      </li>
+
+
 	  </ul>
   </nav>
 </div class="navbar">
   <div class="top">
     <h1>
-      A Site About <span class="name-changer">Some Dogs</span>
+      A Site About <span id="name-changer">Some Dogs</span>
     </h1>
   <div class="doggo">
     <img src="images/dog1-sq.jpg" alt="Cute Dog">
   </div>
   <div class="form">
     <form><p>Name</p><input type="text" name="Name" class="dog-input" /></form>
-    <button type="button" class="dog-btn"><p>Name this Dog!</p></button>
+    <button onclick="changeName()" type="button" class="dog-btn"><p>Name this Dog!</p></button>
   </div>
 </div>
 <div class="buttermilk">
@@ -35,6 +58,7 @@
     <img src="images/dog2-sq.jpg" alt="Cute Dog 2">
   </div>
   <div class="wordsOne">
+    <div id="hidden">
     <p>
       `Dat tungg tho pupperino length
        boy. borkdrive aqua doggo.
@@ -46,7 +70,8 @@
        corgo long water shoob stop it fren
        boofers pupper heck ruff.
     </p>
-    <button type="button">How</button>
+  </div>
+    <button onclick="hideText()" type="button">How</button>
   </div>
 </div>
 <div class="party" id="second">
@@ -55,6 +80,7 @@
     <img src="images/dog3-sq.jpg" alt="Cute Dog 3">
   </div>
   <div class="wordsTwo">
+    <div id="hidden2">
     <p>
       Long doggo smol borking doggo
       with a long snoot for pats
@@ -67,7 +93,8 @@
       shibe. Extremely cuuuuuute corgo
       waggy wags stop it fren.
     </p>
-    <button type="button">What</button>
+  </div>
+    <button onclick="hideText2()" type="button">What</button>
   </div>
 </div>
 <div class="party" id="third">
@@ -76,6 +103,7 @@
     <img src="images/dog4-sq.jpg" alt="Cute Dog 4">
   </div>
   <div class="wordsThree">
+    <div id="hidden3">
     <p>
       Most angery pupper I have ever
       seen such treat heck, dat tungg tho.
@@ -87,29 +115,30 @@
       made many woofs. water shoob stop it fren
        boofers pupper heck ruff.
     </p>
-    <button type="button">Facts</button>
+  </div>
+    <button onclick="hideText3()" type="button">Facts</button>
   </div>
 </div>
 </div>
 <footer> 
   <p> Learn About Dogs Online</p>
   <ul>
-    <div class="iconOne" id="one">
+    <div class="iconOne">
     <li>
       <img src="images/twitter.svg" alt="Twitter">
     </li>
   </div>
-  <div class="iconOne" id="two">
+  <div class="iconOne">
     <li>
       <img src="images/instagram.svg" alt="Instagram">
     </li>
   </div>
-  <div class="iconTwo" id="three">
+  <div class="iconTwo">
     <li>
       <img src="images/facebook.svg" alt="Facebook">
     </li>
   </div>
-  <div class="iconTwo" id="four">
+  <div class="iconTwo">
     <li>
       <img src="images/linkedin.svg" alt="LinkedIn">
     </li>
