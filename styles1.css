@@ -27,7 +27,7 @@ nav img {
 
 nav ul {
 	float: right;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 700;
     text-align: right;
 	width: 50%;
@@ -36,7 +36,11 @@ nav ul {
 nav li {
 	display: inline-block;
 	padding-right: 7%;
-	padding-top: 4%;
+	padding-top: 2%;
+}
+
+button {
+	font-family:Open Sans, sans-serif;
 }
 
 /* code below is for the top banner */
@@ -49,7 +53,7 @@ nav li {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 36px;
     font-weight: 100;
     padding: 20px;
     text-align: center;
@@ -78,7 +82,7 @@ form {
 
 form input {
 	border-radius: 5px;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 3%;
     margin-left: 0;
     margin-top: 3%;
@@ -87,13 +91,13 @@ form input {
 }
 
 form p {
-	font-size: 30px;
+	font-size: 20px;
 }
 
 button {
     background-color: #75e2e6;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 20px;
     margin-left: 35%;
     margin-right: 35%;
@@ -122,8 +126,14 @@ button {
 	height:50%;
 }
 
+.wordsOne,
+.wordsTwo, 
+.wordsThree {
+	height:50%;
+}
+
 .party h2{
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 900;
 	padding-bottom: 3%;
 	padding-top: 3%;
@@ -139,18 +149,19 @@ button {
 }
 
 .party p {
-	font-size: 30px;
+	font-size: 20px;
 	margin-bottom: 5%;
 	margin-left: 8%;
 	margin-right: 8%;
 	margin-top: 5%;
+	min-height: 250px;
 }
 
 .party button {
 	background-color: #048eaa;
 	color: white;
 	display: inline-block;
-	font-size: 30px;
+	font-size: 20px;
 	margin-left: 10%;
 	margin-right: 10%;
 	width: 80%;
@@ -178,7 +189,7 @@ footer {
 
 footer p {
 	color: white;
-	font-size: 30px;
+	font-size: 20px;
 	padding-bottom: 1%;
 	padding-top: 1%;
 	text-align: center;
