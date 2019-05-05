@@ -1,65 +1,64 @@
 <!DOCTYPEHTML>
+<!--The code below is metadata and linked information for the webpage-->
 <head>
   <title>Dog Party</title>
   <link rel="stylesheet" type="text/css" href="styles1.css"> 
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto+Slab:100,300,400,700" rel="stylesheet">
-<script src="main.js"></script>
-<meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto+Slab:100,300,400,700" rel="stylesheet">
+  <script src="main.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
+<!--The code below begins what is actually seen on the webpage-->
+<!--This begins the navigation bar-->
 <body>
-<div class="navbar">
-  <nav> 
-    <img src="images/dog-icon.svg" alt="Dog Icon">
-    <ul> 
-	   
-
-
-      <li>
-      <div class="tooltip">
-      <p>How to Dog</p>
-      <span class="tooltiptext"> This is where you learn how to dog</span>
-      </div>
-      </li>
-      
-      <li>
-      <div class="tooltip">
-      <p>What is Dog?</p>
-      <span class="tooltiptext"> This is where you learn what is dog</span>
-      </div>
-      </li>
-
-	    <li> 
-      <div class="tooltip">
-      <p>Facts From Dog</p>
-      <span class="tooltiptext"> This is where you learn facts of dog</span>
-      </div>
-      </li>
-
-
-	  </ul>
-  </nav>
-</div class="navbar">
+  <div class="navbar">
+    <nav> 
+      <img src="images/dog-icon.svg" alt="Dog Icon">
+      <ul> 
+	      <li>
+          <div class="tooltip">
+            <p>How to Dog</p>
+            <span class="tooltiptext"> This is where you learn how to dog</span>
+          </div>
+        </li>
+        <li>
+          <div class="tooltip">
+            <p>What is Dog?</p>
+            <span class="tooltiptext"> This is where you learn what is dog</span>
+          </div>
+        </li>
+        <li> 
+          <div class="tooltip">
+            <p>Facts From Dog</p>
+            <span class="tooltiptext"> This is where you learn facts of dog</span>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+<!--This conclude the navigation bar and begins the banner-->
   <div class="top">
-    <h1>
-      A Site About <span id="name-changer">Some Dogs</span>
-    </h1>
-  <div class="doggo">
-    <img src="images/dog1-sq.jpg" alt="Cute Dog">
+    <h1>A Site About <span id="name-changer">Some Dogs</span></h1>
+    <div class="doggo">
+      <img src="images/dog1-sq.jpg" alt="Cute Dog">
+    </div>
+    <div class="form">
+      <form>
+        <p>Name</p>
+        <input type="text" name="Name" class="dog-input" />
+      </form>
+      <button onclick="changeName()" type="button"><p>Name this Dog!</p></button>
+    </div>
   </div>
-  <div class="form">
-    <form><p>Name</p><input type="text" name="Name" class="dog-input" /></form>
-    <button onclick="changeName()" type="button" class="dog-btn"><p>Name this Dog!</p></button>
-  </div>
-</div>
-<div class="buttermilk">
-  <div class="party" id="first">
-    <div class="titleOne">
-    <h2>How to Dog</h2>
-    <img src="images/dog2-sq.jpg" alt="Cute Dog 2">
-  </div>
-  <div class="wordsOne">
-    <div id="hidden">
-    <p>
+<!--This concludes code for the banner and begins code for the main content-->
+  <div class="buttermilk">
+    <div class="party" id="first">
+      <div class="titleOne">
+        <h2>How to Dog</h2>
+        <img src="images/dog2-sq.jpg" alt="Cute Dog 2">
+      </div>
+      <div class="wordsOne">
+        <div id="hidden">
+          <p>
       `Dat tungg tho pupperino length
        boy. borkdrive aqua doggo.
        Maximum borkdrive long doggo
@@ -69,82 +68,83 @@
        neighborhood pupper borkf smol
        corgo long water shoob stop it fren
        boofers pupper heck ruff.
-    </p>
-  </div>
-    <button onclick="hideText()" type="button">How</button>
-  </div>
-</div>
-<div class="party" id="second">
-  <div class="titleTwo">
-    <h2>What is Dogs</h2>
-    <img src="images/dog3-sq.jpg" alt="Cute Dog 3">
-  </div>
-  <div class="wordsTwo">
-    <div id="hidden2">
-    <p>
-      Long doggo smol borking doggo
-      with a long snoot for pats
-      pupperino h*ck heckin angery
-      woofer shoober aqua doggo heck
-      doggo aqua doggo most angery
-      pupper I have ever seen heckin
-      angery woofer pupper. ruff
-      adorable doggo very hand that feed
-      shibe. Extremely cuuuuuute corgo
-      waggy wags stop it fren.
-    </p>
-  </div>
-    <button onclick="hideText2()" type="button">What</button>
-  </div>
-</div>
-<div class="party" id="third">
-  <div class="titleThree">
-    <h2>Facts from Dog</h2>
-    <img src="images/dog4-sq.jpg" alt="Cute Dog 4">
-  </div>
-  <div class="wordsThree">
-    <div id="hidden3">
-    <p>
-      Most angery pupper I have ever
-      seen such treat heck, dat tungg tho.
-      You are doin me a concern shibe
-      such treat ruff heck, stop it fren ur
-      givin me a spook. Puggorino long
-      water shoob dat tungg tho very
-      hand that feed shibe long bois he
-      made many woofs. water shoob stop it fren
+          </p>
+        </div>
+        <button onclick="hideText()" type="button">How</button>
+      </div>
+    </div>
+    <div class="party" id="second">
+      <div class="titleTwo">
+        <h2>What is Dogs</h2>
+        <img src="images/dog3-sq.jpg" alt="Cute Dog 3">
+      </div>
+      <div class="wordsTwo">
+        <div id="hidden2">
+          <p>
+       Long doggo smol borking doggo
+       with a long snoot for pats
+       pupperino h*ck heckin angery
+       woofer shoober aqua doggo heck
+       doggo aqua doggo most angery
+       pupper I have ever seen heckin
+       angery woofer pupper. ruff
+       adorable doggo very hand that feed
+       shibe. Extremely cuuuuuute corgo
+       waggy wags stop it fren.
+          </p>
+        </div>
+        <button onclick="hideText2()" type="button">What</button>
+      </div>
+    </div>
+    <div class="party" id="third">
+      <div class="titleThree">
+        <h2>Facts from Dog</h2>
+        <img src="images/dog4-sq.jpg" alt="Cute Dog 4">
+      </div>
+      <div class="wordsThree">
+        <div id="hidden3">
+          <p>
+       Most angery pupper I have ever
+       seen such treat heck, dat tungg tho.
+       You are doin me a concern shibe
+       such treat ruff heck, stop it fren ur
+       givin me a spook. Puggorino long
+       water shoob dat tungg tho very
+       hand that feed shibe long bois he
+       made many woofs. water shoob stop it fren
        boofers pupper heck ruff.
-    </p>
+          </p>
+        </div>
+        <button onclick="hideText3()" type="button">Facts</button>
+      </div>
+    </div>
   </div>
-    <button onclick="hideText3()" type="button">Facts</button>
-  </div>
-</div>
-</div>
-<footer> 
-  <p> Learn About Dogs Online</p>
-  <ul>
-    <div class="iconOne">
-    <li>
-      <img src="images/twitter.svg" alt="Twitter">
-    </li>
-  </div>
-  <div class="iconOne">
-    <li>
-      <img src="images/instagram.svg" alt="Instagram">
-    </li>
-  </div>
-  <div class="iconTwo">
-    <li>
-      <img src="images/facebook.svg" alt="Facebook">
-    </li>
-  </div>
-  <div class="iconTwo">
-    <li>
-      <img src="images/linkedin.svg" alt="LinkedIn">
-    </li>
-  </div>
-  </ul>
-</footer>
+<!--This concludes code for the main content and begins code for the footer-->
+  <footer> 
+    <p> Learn About Dogs Online</p>
+    <ul>
+      <div class="iconOne">
+        <li>
+          <img src="images/twitter.svg" alt="Twitter">
+        </li>
+      </div>
+      <div class="iconOne">
+        <li>
+          <img src="images/instagram.svg" alt="Instagram">
+        </li>
+      </div>
+      <div class="iconTwo">
+        <li>
+          <img src="images/facebook.svg" alt="Facebook">
+        </li>
+      </div>
+      <div class="iconTwo">
+        <li>
+          <img src="images/linkedin.svg" alt="LinkedIn">
+        </li>
+      </div>
+    </ul>
+  </footer>
 </body>
 
 
